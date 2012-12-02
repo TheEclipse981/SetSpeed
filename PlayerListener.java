@@ -52,8 +52,6 @@ else if (playerLocation.getBlock().getType().equals(Material.STATIONARY_WATER))
 if (plugin.speedWater > 1D)
 {
 Vector dir = player.getLocation().getDirection().normalize().multiply(plugin.speedWater - 1.6D);
-Vector vec = new Vector(dir.getX(), dir.getY(), dir.getZ());
-player.setVelocity(vec);
 }
 
 }
